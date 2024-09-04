@@ -1,6 +1,6 @@
 import { IDataStore } from 'bpmn-server';
 import {UserService } from '../userAccess/UserService'
-console.log(UserService);
+
 
 
 const pack = require("./feature");
@@ -32,7 +32,7 @@ async function deleteAll() {
     console.log(ret['deletedCount'],'deleted');
 }
 async function install() {
-
+    console.log("install")
 
     try {
         await dataStore.install();

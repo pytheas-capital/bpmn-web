@@ -1,4 +1,4 @@
-﻿/node_modules
+/node_modules
 /allure-results
 /obj
 /docs/api
@@ -19,3 +19,4 @@
 *.tsbuildinfo
 docker/mongodb_volume
 docker/bpmn_server_volume
+/.idea
